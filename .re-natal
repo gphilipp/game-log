@@ -1,0 +1,12 @@
+{
+  "name": "GameLog",
+  "interface": "om-next",
+  "androidHost": "localhost",
+  "modules": [
+    "react-native-vector-icons",
+    "react-native-vector-icons/FontAwesome"
+  ],
+  "imageDirs": [
+    "images"
+  ]
+}
