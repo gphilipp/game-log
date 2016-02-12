@@ -200,8 +200,8 @@
          :parser (om/parser {:read read})
          :send (send-to-chan send-chan)
          :remotes [:remote :search]
-         :root-render #(.render js/React %1 %2)
-         :root-unmount #(.unmountComponentAtNode js/React %)}))
+         :root-render sup/root-render
+         :root-unmount sup/root-unmount}))
 
 (defonce RootNode (sup/root-node 1))
 (defonce app-root (om/factory RootNode))
